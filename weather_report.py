@@ -110,7 +110,7 @@ def send_weather(access_token, weather):
             }
             # "today_note": {
             #     "value": get_daily_love()
-            }
+            # }
         }
     }
     url = 'https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={}'.format(access_token)
